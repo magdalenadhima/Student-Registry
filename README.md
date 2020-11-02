@@ -114,16 +114,20 @@ commands will be explained in point 4. below.
     extending RuntimeException. Here is the error checking this method should support:
 
      UnknownCourse exception: the given courseCode cannot not be found
-     InvalidDay exception: the string parameter day should be one of “Mon”,
-        “Tue”, “Wed”, “Thur”, “Fri”.
-         InvalidTime exception: the startTime parameter should not be less than
-        0800 (8 am) and the end time of the lecture (based on the duration
-        parameter) should not be greater than 1700 (5pm). Use a 24 hour clock.
-     InvalidDuration parameter: the lecture duration should be 1, 2 or 3
-        hours.
-     LectureTimeCollision exception : the day, startTime, and duration
-        should be such that it does not create any overlap with another
+    
+     InvalidDay exception: the string parameter day should be one of “Mon”, “Tue”, “Wed”, 
+        “Thur”, “Fri”.
+        
+     InvalidTime exception: the startTime parameter should not be less than 0800 (8 am) 
+        and the end time of the lecture (based on the duration parameter) should not be 
+        greater than 1700 (5pm). Use a 24 hour clock.
+        
+     InvalidDuration parameter: the lecture duration should be 1, 2 or 3 hours.
+    
+     LectureTimeCollision exception : the day, startTime, and duration should be such 
+        that it does not create any overlap with another
         scheduled course.
+        
 
     c. public void clearSchedule(String courseCode). Given the course code, resets
         the lectureDay to “”, lectureStart to 0 and lectureDuration to 0 of the
