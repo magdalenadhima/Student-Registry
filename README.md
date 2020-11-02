@@ -41,8 +41,10 @@ interaction part.
    command. Some lines contain a command word and some parameter string. 
 
 Commands:
-a. “L” : list all the students in the registry. 
-b. “Q” : quit out of the program. 
+a. “L” : list all the students in the registry.
+
+b. “Q” : quit out of the program.
+
 c. “REG” : register a student. Reads a student name and student id from the
 commandLine scanner. Uses Registry method to register the new student. Just 
 make up a 5 digit id.
