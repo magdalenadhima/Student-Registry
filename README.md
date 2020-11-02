@@ -93,9 +93,9 @@ be set/used by the new Scheduler class.
     course code as the key for the courses TreeMap. 
 
 3. Class Scheduler: 
-This class is responsible for scheduling active courses. There are 3 commands 
-added to the StudentRegistrySimulator that use the Scheduler. These 3  
-commands will be explained in point 4. below. 
+    This class is responsible for scheduling active courses. There are 3 commands 
+    added to the StudentRegistrySimulator that use the Scheduler. These 3  commands 
+    will be explained in point 4. below. 
 
     Public methods for this class (note – add any other helper methods or
     variables you think you need):
@@ -129,9 +129,9 @@ commands will be explained in point 4. below.
         scheduled course.
         
 
-    c. public void clearSchedule(String courseCode). Given the course code, resets
-        the lectureDay to “”, lectureStart to 0 and lectureDuration to 0 of the
-        ActiveCourse object. If no such active course exists, do nothing.
+    c. public void clearSchedule(String courseCode). Given the course code, resets the 
+        lectureDay to “”, lectureStart to 0 and lectureDuration to 0 of the ActiveCourse 
+        object. If no such active course exists, do nothing.
 
     d. public void printSchedule(). Prints the timetable in a nice format. 
         Hours along the left side and days across the top.
