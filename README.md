@@ -135,21 +135,21 @@ commands will be explained in point 4. below.
 4. StudentRegistrySimulator. Three commands:
 
     a. “SCH courseCode day start duration”. For example: sch cps209
-    Mon 900 3. Schedules a course for a certain day, start time and duration.
+        Mon 900 3. Schedules a course for a certain day, start time and duration.
 
-Catches any exceptions thrown. Print an appropriate message to
-the user if an exception is thrown.
+        Catches any exceptions thrown. Print an appropriate message to
+        the user if an exception is thrown.
 
-b. “CSCH courseCode”. Clears the schedule of the given course
+    b. “CSCH courseCode”. Clears the schedule of the given course
 
-c. “PSCH” Prints the entire schedule.
+    c. “PSCH” Prints the entire schedule.
 
 
 5. BONUS:
 
-a. Extends the scheduler to handle multiple blocks of time for a course.
+    a. Extends the scheduler to handle multiple blocks of time for a course.
 
-b. Given a course code and a lecture duration, the scheduler automatically 
-finds a block of time during the week. If it cannot, it throws an exception. 
-If it succeeds, when you print the schedule, you should see the course has 
-been scheduled.
+    b. Given a course code and a lecture duration, the scheduler automatically 
+        finds a block of time during the week. If it cannot, it throws an exception. 
+        If it succeeds, when you print the schedule, you should see the course has 
+        been scheduled.
