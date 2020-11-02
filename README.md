@@ -48,18 +48,30 @@ b. “Q” : quit out of the program.
 c. “REG” : register a student. Reads a student name and student id from the
 commandLine scanner. Uses Registry method to register the new student. Just 
 make up a 5 digit id.
+
 d. “DEL”: deletes a student from the registry.
+
 e. “ADDC”: adds a student to an active course.
+
 f. “DROPC”: drops a student from an active course.
+
 g. “PAC” : prints all active course.
+
 h. “PCL” : prints class list for an active course.
+
 i. “PGR” : prints student id and grade for all students in an active course.
+
 j. “PSC” : prints all credit courses for a student.
+
 k. “SFG” : Set final grade of a student in a course.
+
 l. “SCN” : sort list of students in a course by student name.
+
 m. “SCI” : sort list of students in a course by student id.
+
 n. Code handles commands that are not recognized or the null string or a null 
 reference etc.
+
 
 -------------------------------------------------------------------------------------
 
