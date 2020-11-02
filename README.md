@@ -41,6 +41,7 @@ interaction part.
    command. Some lines contain a command word and some parameter string. 
 
 Commands:
+
 a. “L” : list all the students in the registry.
 
 b. “Q” : quit out of the program.
