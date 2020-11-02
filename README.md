@@ -13,8 +13,8 @@ removeStudent, addCourse, and dropCourse.
 a Course. Variables and methods inherited from class Course, class ActiveCourse keeps 
 students enrolled in the course.
 
-This class also has two private Comparator classes that are used to sort the list
-of students by name or by student id. 
+    This class also has two private Comparator classes that are used to sort the list
+    of students by name or by student id. 
 
 4. CreditCourse: class CreditCourse also extends class Course. That is, a CreditCourse
 is a Course. Variables and methods inherited from class Course, class CreditCourse adds 
@@ -36,9 +36,9 @@ courses. It is the largest class for this system.
 6. StudentRegistrySimulator. This class has the main() method and is the user
 interaction part.
 
-In a while loop, a scanner reads a line of input from the user. The input lines
-contain words (Strings). Most input lines contain a single word that represents a
-command. Some lines contain a command word and some parameter string. 
+   In a while loop, a scanner reads a line of input from the user. The input lines
+   contain words (Strings). Most input lines contain a single word that represents a
+   command. Some lines contain a command word and some parameter string. 
 
 Commands:
 a. “L” : list all the students in the registry. 
